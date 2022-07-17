@@ -1,2 +1,1 @@
-# portfolio
-Personal portfolio site using flask
+[![Python application](https://github.com/acekavi/portfolio/actions/workflows/python-app.yml/badge.svg?branch=master&event=status)](https://github.com/acekavi/portfolio/actions/workflows/python-app.yml)
