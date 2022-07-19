@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<!-- Add your site or app content here -->
+<div class="hero-full-container background-image-container white-text-container"
+  style="background-image: url('{{ url_for('static', filename='assets/images/bg-home.png') }}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="hero-full-wrapper">
+          <div class="text-content">
+            <h2>Hi! I'm Avishka </h2>
+            <h3>
+            <span id="typed-strings">
+                <span>Fullstack Dev</span>
+                <span>UI/UX Designer</span>
+                <span>Vector Artist</span>
+              </span>
+              <span id="typed"></span>
+            </h3>
+            <p>Currently an Computer science undergraduate of Westminister university, London.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    type();
+    movingBackgroundImage();
+  });
+</script>
+{% endblock %}

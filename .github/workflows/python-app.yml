@@ -39,6 +39,7 @@ jobs:
         export FLASK_APP=main
         export FLASK_ENV=development
         flask run
+        ctrl+c
     # - name: Test with pytest
     #   run: |
     #     pytest
